@@ -3,7 +3,7 @@
 # Created by Sylent on Oct 2
 
 # Ask user for their name
-user_name = input("What is your name?")
+user_name = input("What is your name? ")
 
 # Print Hello and their name
 print("Hello {0}".format(user_name))
