@@ -7,8 +7,7 @@
 import platform
 import os
 
-def ping_host(ip):
-    # Determine the currrent OS
+def ping_address(ip_address)
     currrent_os = platform.system().lower()
     if currrent_os == "windows":
         # Build our ping command for Windows
@@ -19,6 +18,8 @@ def ping_host(ip):
     # Execute command and capture exit code
     exit_code = os.system(ping_cmd)
     return exit_code
+
+    
 
 # Define the prefix to begin pinging
 ip_prefix = "192.168.0."
